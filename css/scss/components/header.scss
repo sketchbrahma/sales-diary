@@ -1,0 +1,77 @@
+
+.header-area {
+    height: 80px;	
+    width: 100%;	
+    background-color: #FFFFFF;
+    .menu-button{
+        padding: 31px;
+        width: 0px;
+        .sidepanel {
+            position: fixed;
+            z-index: 1;
+            height: 100vh;
+            background-color: #ffffff;
+            transition: 0.5s;
+            a {
+                text-decoration: none;
+                font-size: 25px;
+                transition: 0.3s;
+            }
+            .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+            }
+        }
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+    }
+    .header-heading{
+        top: 0%;
+        position: absolute;
+        padding-left: 194px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        h1{
+            color: #2E384D;	
+            font-family: 'Rubik';	
+            font-size: 28px;	
+        }
+    }
+}
+.working-area{
+    display: flex;
+    background-color: #F4F6FC;
+    .side-header{
+        height: 87vh;	
+        width: 80px;	
+        background-color: #FFFFFF;
+        .list-menu{
+            padding-top: 100px;
+            ul{
+                list-style: none;
+                padding: 0px;
+                li{
+                    padding: 31px;
+                }
+            }
+        }
+    }
+    .right-sdie{
+        width: 100%;
+        ul{
+            list-style: none;
+            li{
+                .dc-dropdown{
+
+                }
+            }
+        }
+    }
+}
